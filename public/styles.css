@@ -1,0 +1,191 @@
+#Head {
+  background-color: #363636;
+  font-size: 1.8em;
+  margin: 0;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 0.6fr 1.4fr;
+  grid-gap: 10px;
+}
+#dpimage {
+}
+#Head a {
+  color: white;
+  font-size: 1.2em;
+}
+.fab {
+  font-size: 1.8em;
+}
+#Head img {
+  border-radius: 50%;
+  margin: auto;
+  border: 10px solid white;
+}
+h1 {
+  font-size: 2em;
+}
+
+#contact {
+  padding-top: 72px;
+  text-align: right;
+  color: white;
+}
+#Education {
+  background-color: #668500;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 0.6fr 1.4fr;
+  grid-gap: 10px;
+  color: white;
+}
+@media only screen and (max-width: 960px) {
+  #Head {
+    display: flex;
+    flex-direction: column;
+  }
+  #Education {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+tr {
+  line-height: 80%;
+  font-size: 2em;
+}
+#Education .Course {
+  text-align: center;
+  padding-right: 20px;
+  font-size: 4.5em;
+  padding-top: 30px;
+}
+#Education .CourseDetails {
+  padding-left: 20px;
+}
+#Education p {
+  font-size: 1.5em;
+}
+.skill {
+  background-color: #ff7373;
+  color: white;
+  font-size: 2em;
+  color: white;
+  min-width: 12em;
+}
+.inline {
+  display: inline-grid;
+  grid-column-gap: 50px;
+  grid-gap: 50px 100px;
+  padding: 20px;
+}
+.inline:hover {
+  transform: scale(1.1);
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #ffdcdc;
+}
+.icon {
+  font-size: 1.7em;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.padder {
+  padding: 0.7px;
+}
+.ProjectDetails img {
+  width: 200px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #1d8027;
+  color: white;
+  margin: 0;
+  padding: 20px;
+  font-size: 1.2em;
+}
+.lowerhr {
+  margin-bottom: 0em;
+}
+.upperhr {
+  margin-top: 1px;
+}
+.acheivement {
+  background-color: #e0e1d9;
+  padding: 20px;
+  font-size: 2em;
+}
+.projects {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  grid-column-gap: 25px;
+}
+
+.projects img {
+  width: 350px;
+}
+.ProjectDetails {
+  max-width: 350px;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ProjectDetails {
+  flex: 25%;
+  padding: 20px;
+}
+@media screen and (max-width: 992px) {
+  .ProjectDetails {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects {
+    flex-direction: column;
+  }
+}
+
+.projectview:hover {
+  background-color: #ff7a59;
+  color: white;
+  font-size: 1.2em;
+  transform: scale(1.1);
+  padding: 0;
+  margin: 0;
+}
+.ProjectDetails:hover a {
+  color: #a6ffa6;
+  font-size: 1.2em;
+}
+.cpimg {
+  width: 150px;
+}
+.cphandles {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.cphandles a {
+  color: black;
+  text-decoration: none;
+}
+.cphandle {
+  max-width: 150px;
+}
+.cphandles:hover {
+  background-color: #2196f3;
+}
+@media screen and (min-width: 992px) {
+  .cphandle {
+    max-width: 270px;
+  }
+  .cpimg {
+    width: 270px;
+  }
+}
